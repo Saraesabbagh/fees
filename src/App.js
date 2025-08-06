@@ -15,7 +15,7 @@ function calculateFees({
 
   // Day rates (used only when fundedHoursPerWeek === 0)
   const longDayRate = 116;
-  const shortDayRate = 100;
+  const shortDayRate = 105;
 
   const totalHours = ((longDays * longDayHours) + (shortDays * shortDayHours)) * weeksPerYear;
 
